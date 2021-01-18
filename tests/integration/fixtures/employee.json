@@ -1,0 +1,99 @@
+[
+  {
+    "id": 0,
+    "name": "Jaki",
+    "last_name": "Dusty",
+    "middle_name": "Ruskin",
+    "status": {
+      "name": "active"
+    },
+    "address": {
+      "country": "Germany",
+      "city": "Berlin"
+    },
+    "phones": [
+      {
+        "country_code": "8",
+        "city_code": "800",
+        "number": "5553535"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Kristel",
+    "last_name": "Pansy",
+    "middle_name": "Walker",
+    "status": {"name": "active"},
+    "address": {
+      "country": "Island",
+      "city": "Reykjavik"
+    },
+    "phones": [
+      {
+        "country_code": "8",
+        "city_code": "800",
+        "number": "5553535"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Alison",
+    "last_name": "Harriet",
+    "middle_name": "Derrickson",
+    "status": {
+      "name": "active"
+    },
+    "address": {
+      "country": "USA",
+      "city": "Washington"
+    },
+    "phones": [
+      {
+        "country_code": "8",
+        "city_code": "800",
+        "number": "5553535"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Loraine",
+    "last_name": "Fitz",
+    "middle_name": "Peter",
+    "status": {
+      "name": "active"
+    },
+    "address": {
+      "country": "Russia",
+      "city": "Moscow"
+    },
+    "phones": [
+      {
+        "country_code": "8",
+        "city_code": "800",
+        "number": "5553535"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Emmy",
+    "last_name": "Earnestine",
+    "status": {
+      "name": "active"
+    },
+    "address": {
+      "country": "Ukraine",
+      "city": "Kiev"
+    },
+    "phones": [
+      {
+        "country_code": "8",
+        "city_code": "800",
+        "number": "5553535"
+      }
+    ]
+  }
+]
