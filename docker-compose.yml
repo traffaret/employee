@@ -8,6 +8,7 @@ x-app-volumes: &app-volumes
     - ./composer.json:/usr/app/composer.json:delegated
     - ./composer.lock:/usr/app/composer.lock:delegated
     - ./phpunit.xml.dist:/usr/app/phpunit.xml.dist:delegated
+    - ./phpcs.xml.dist:/usr/app/phpcs.xml:delegated
     - app-vendor:/usr/app/vendor
 
 volumes:

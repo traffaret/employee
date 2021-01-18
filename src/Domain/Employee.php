@@ -28,7 +28,8 @@ final class Employee
 
     private Entity $entity;
 
-    public function __construct(Entity $entity) {
+    public function __construct(Entity $entity)
+    {
         $this->entity = $entity;
     }
 
@@ -171,4 +172,3 @@ final class Employee
         );
     }
 }
-

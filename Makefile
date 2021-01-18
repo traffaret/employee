@@ -7,9 +7,13 @@ up:
 down:
 	@docker-compose down --remove-orphans
 
-.PHONY:test
+.PHONY: test
 test:
 	@docker-compose exec app composer test
+
+.PHONY: style
+style:
+	@docker-compose exec app composer code-style
 
 .PHONY: composer
 composer: composer.json composer.lock
